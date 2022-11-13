@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html {
+    font-size: 16px;
+}
+
+.blob {
+    position: absolute;
+    top: -5rem;
+    right: -5rem;
+    width: 20rem;
+    scale: 3;
+    rotate: 180deg;
+    filter: drop-shadow(0 0 20px #8a3ffc);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: .7fr 4fr 4fr .5fr;
+    grid-template-areas: 
+    "head"
+    "landing"
+    "main"
+    "footer";
+    background-color: #181818;
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: head;
+}
+
+header > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 2%;
+    letter-spacing: .3rem;
+    background-image: linear-gradient(90deg, #06beb6, #48b1bf);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+header > .list {
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1%;
+    z-index: 3;
+    height: 2rem;
+}
+
+header > .list > ul > li {
+    list-style: none;
+}
+
+header > .list > ul > li > a {
+    text-decoration: none;
+    letter-spacing: .19rem;
+}
+
+main {
+    grid-area: landing;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > img {
+    filter: brightness(1.5) opacity(1);
+}
+
+main > .main-content {
+    margin-left: 2%;
+}
+
+main > img {
+    margin-right: 1%;
+    width: 22rem;
+    transform: translateY(-3rem);
+}
+
+main h4,
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main h4 {
+    letter-spacing: 0.2rem;
+}
+
+main > .main-content > h1 {
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+}
+
+main h5 , .word-changeer {
+    letter-spacing: .8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+main h5 > .word-changeer {
+    text-decoration: underline;
+    color: #dddd1e;
+}
+
+
