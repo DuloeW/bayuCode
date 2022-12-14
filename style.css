@@ -139,6 +139,11 @@ main > .containner-img-icon > ul {
     list-style-type: none;
 }
 
+main > .containner-img-icon > ul li {
+    
+}
+
+
 main h4,
 h1{
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
