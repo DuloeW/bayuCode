@@ -114,6 +114,14 @@ main > .main-content > .containner-button > button {
     border: none;
     border-radius: 1rem;
     box-shadow: 0 2px 30px #245dc7;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    transition: .4s;
+}
+
+main > .main-content > .containner-button > button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 main > .containner-img-icon {
@@ -140,9 +148,16 @@ main > .containner-img-icon > ul {
 }
 
 main > .containner-img-icon > ul li {
-    
+    padding: .7rem;
+    border-radius: 1rem;
+    transition: .5s ease-in-out;
 }
 
+main > .containner-img-icon > ul li:hover {
+    background: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(10px);
+    transform: translateY(-20px);
+}
 
 main h4,
 h1{
