@@ -213,10 +213,6 @@ footer {
         font-size: 12px;
     }
 
-    body {
-        height: 100vh;
-    }
-
     main {
         flex-direction: column;
         justify-content: center;
